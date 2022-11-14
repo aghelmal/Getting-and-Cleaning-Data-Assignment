@@ -1,6 +1,7 @@
 This file attempts to describes the steps perfemored for analysis. (i.e., the variables, the data, and any transformations or work that has been performed to clean up the data "Human Activity Recognition Using Smartphones").
 ##############################################################################################
 Step 0: prepration: In this step I set the working directory and read data sets (e.g. training and test data) into R:
+# Reading features and activities data
 features <- read.table("UCI HAR Dataset/features.txt")
 activities <- read.table("UCI HAR Dataset/activity_labels.txt", header = FALSE)
 # Reading test data
